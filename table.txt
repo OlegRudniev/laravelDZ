@@ -1,0 +1,19 @@
+a. Таблица "новости" (news):
+
+id (Primary key)
+title (заголовок новости)
+content (текст новости)
+published_at (дата публикации)
+category_id (Foreign key к таблице "категории новостей")
+source_id (Foreign key к таблице "источники получения новостных данных")
+
+b. Таблица "категории новостей" (categories):
+
+id (Primary key)
+name (название категории)
+
+c. Таблица "источники получения новостных данных" (sources):
+
+id (Primary key)
+name (название источника)
+url (URL источника)
